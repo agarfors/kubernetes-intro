@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: INSERT_PATH_TO_DOCKER_IMAGE
+        image: gcr.io/fsb2016-1245/frontend:cv-frontend-2
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
